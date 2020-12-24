@@ -17,6 +17,24 @@
 
 Hardware List: https://pcpartpicker.com/b/x33tt6
 
+## SOs
+
+- Windows 10
+- Ubuntu 20.08 LTS
+- MacOs 11.2
+
+# MacOs Kexts
+
+- Lilu (1.4.9)
+- AppleALC (1.5.5)
+- NVMeFix (1.0.5)
+- NoTouchID (1.0.4)
+- WhateverGreen (1.4.5)
+- VirtualSMC (1.1.8)
+- SMCProcessor (1.1.8)
+- SMCSuperIO (1.1.8)
+- IntelMausi (1.0.4)
+
 ## Working
 
 - Everything that I know about
