@@ -962,13 +962,13 @@
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<integer>50</integer>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>143</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>True</string>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -977,6 +977,7 @@
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
+			<string>AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
