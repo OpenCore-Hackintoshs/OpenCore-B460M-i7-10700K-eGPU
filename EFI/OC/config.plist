@@ -246,6 +246,15 @@
 				<key>device-id</key>
 				<data>mD4AAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>layout-id</key>
+				<data>MgAAAA==</data>
+				<key>model</key>
+				<string>Realtek ALCS1200A</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -958,7 +967,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
