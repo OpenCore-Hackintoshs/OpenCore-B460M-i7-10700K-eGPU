@@ -1,5 +1,6 @@
 # Specifications
 
+Hardware List: https://pcpartpicker.com/b/x33tt6
 ```
 Gigabyte B460M Aorus Pro (Bios: F4)
  - Audio: Realtek® ALC1200 codec
@@ -19,9 +20,20 @@ Monitor HP V225hz && DELL P2219H (3840x1080)
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
 - WM: Spectacle
 
-Hardware List: https://pcpartpicker.com/b/x33tt6
+# Install
 
-# MacOs Kexts
+Download and extract the last release EFI.zip to your the root of your EFI partition and update your SMBIOS values.
+
+For minor hardware differences, like processor and GPU, see the full guide:
+https://dortania.github.io/OpenCore-Install-Guide/
+
+---
+
+**SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
+You can use OpenCoreConfigurator to OpenCore 0.6.4 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20201215
+
+## MacOs Kexts
 
 - Lilu (1.5.0)
 - AppleALC (1.5.5)
@@ -33,7 +45,7 @@ Hardware List: https://pcpartpicker.com/b/x33tt6
 - SMCSuperIO (1.1.9)
 - IntelMausi (1.0.4)
 
-## SOs
+## Running SOs
 
 - Windows 10
 - Ubuntu 20.08 LTS
@@ -54,8 +66,7 @@ Hardware List: https://pcpartpicker.com/b/x33tt6
 
 ## Not Working
 
-- RGB Control
-- Etc
+- RGB Control (Only work on Windows)
 
 ## Images
 
