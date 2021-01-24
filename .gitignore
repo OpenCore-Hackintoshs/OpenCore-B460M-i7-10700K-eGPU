@@ -1,4 +1,5 @@
 BackUp/
+Release/
 *.txt
 .*/
 **/._*
