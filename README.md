@@ -13,8 +13,8 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.6.4
-- OS: macOS 11.2 20D5029f x86_64
+- OpenCore 0.6.5
+- OS: macOS 11.2 20D53 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Kernel: 20.3.0
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
@@ -35,15 +35,15 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20201215
 
 ## MacOs Kexts
 
-- Lilu (1.5.0)
-- AppleALC (1.5.5)
-- NVMeFix (1.0.5)
-- NoTouchID (1.0.4)
-- WhateverGreen (1.4.5)
-- VirtualSMC (1.1.9)
-- SMCProcessor (1.1.9)
-- SMCSuperIO (1.1.9)
-- IntelMausi (1.0.4)
+- [Lilu (1.5.0)](https://github.com/acidanthera/Lilu/releases/tag/1.5.0)
+- [AppleALC (1.5.5)](https://github.com/acidanthera/AppleALC/releases/tag/1.5.5)
+- [NVMeFix (1.0.5)](https://github.com/acidanthera/NVMeFix/releases/tag/1.0.5)
+- [NoTouchID (1.0.4)](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.4)
+- [WhateverGreen (1.4.6)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.6)
+- [VirtualSMC (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
+- [SMCProcessor (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
+- [SMCSuperIO (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
+- [IntelMausi (1.0.4)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.4)
 
 ## Running SOs
 
@@ -56,7 +56,7 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20201215
 - Wifi + Bluetooth (Airdrop, AirPlay)
 - LAN Ethernet
 - Boot Audio
-- SO Audio
+- OS Audio
 - USB Ports
 - GPU Aceleration (Dual Monitor+)
 - Temperature, Power Sensors
