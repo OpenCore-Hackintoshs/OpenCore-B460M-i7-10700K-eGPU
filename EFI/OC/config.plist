@@ -728,7 +728,7 @@
                 <key>PickerAudioAssist</key>
                 <true/>
                 <key>PickerMode</key>
-                <string>External</string>
+                <string>Apple</string>
                 <key>PickerVariant</key>
                 <string>Auto</string>
                 <key>PollAppleHotKeys</key>
@@ -751,7 +751,7 @@
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
-                <integer>2147483648</integer>
+                <integer>0</integer>
                 <key>SerialInit</key>
                 <false/>
                 <key>SysReport</key>
@@ -835,7 +835,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 alcid=1 agdpmod=pikera</string>
+                    <string>alcid=1 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -955,11 +955,11 @@
                 <key>AudioOut</key>
                 <integer>0</integer>
                 <key>AudioSupport</key>
-                <true/>
+                <false/>
                 <key>MinimumVolume</key>
                 <integer>50</integer>
                 <key>PlayChime</key>
-                <string>Enabled</string>
+                <string>Disabled</string>
                 <key>SetupDelay</key>
                 <integer>0</integer>
                 <key>VolumeAmplifier</key>
