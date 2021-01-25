@@ -20,7 +20,7 @@ Monitor HP V225hz && DELL P2219H (3840x1080)
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
 - WM: Spectacle
 
-# Install
+## Install
 
 Download and extract the last release EFI.zip to your the root of your EFI partition and update your SMBIOS values.
 
@@ -30,8 +30,8 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.6.4 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20201215
+You can use OpenCoreConfigurator to OpenCore 0.6.5 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210106
 
 ## MacOs Kexts
 
