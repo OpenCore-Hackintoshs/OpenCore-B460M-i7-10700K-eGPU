@@ -6,7 +6,7 @@ Gigabyte B460M Aorus Pro (Bios: F4)
  - Audio: Realtek® ALC1200 codec
  - Ethernet: Intel® Ethernet Connection I219V12
 Intel Core i7 10700K
-Ram 2 x 16GB DDR4 2400 MHz
+Ram 2 x 16GB DDR4 2933 MHz
 SSD WD BLACK SN750 1TB NVME PCIe Gen3 x4 (WDS100T3XHC)
 Gigabyte Radeon RX 5700 GAMING OC 8GB - Navi 10
 Wifi + Bluetooth Bcm94360cd
@@ -68,6 +68,7 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210106
 
 - RGB Control (Only work on Windows)
 
-## Images
+## Configs
 
-![AboutThisMac](images/AboutThisMac.png)
+![Bios Config](images/BiosConfig.jpg)
+![About This Mac](images/AboutThisMac.png)
