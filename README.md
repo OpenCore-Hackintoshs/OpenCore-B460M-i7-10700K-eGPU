@@ -30,8 +30,8 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.6.5 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210106
+You can use OpenCoreConfigurator to OpenCore 0.6.6 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210203
 
 ## MacOs Kexts
 
