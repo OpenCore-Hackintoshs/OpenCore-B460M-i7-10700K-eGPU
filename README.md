@@ -13,8 +13,8 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.6.5
-- OS: macOS 11.2 20D53 x86_64
+- OpenCore 0.6.6
+- OS: macOS 11.3 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Kernel: 20.3.0
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
@@ -35,21 +35,19 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210106
 
 ## MacOs Kexts
 
-- [Lilu (1.5.0)](https://github.com/acidanthera/Lilu/releases/tag/1.5.0)
-- [AppleALC (1.5.5)](https://github.com/acidanthera/AppleALC/releases/tag/1.5.5)
-- [NVMeFix (1.0.5)](https://github.com/acidanthera/NVMeFix/releases/tag/1.0.5)
-- [NoTouchID (1.0.4)](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.4)
-- [WhateverGreen (1.4.6)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.6)
-- [VirtualSMC (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
-- [SMCProcessor (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
-- [SMCSuperIO (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.1.9)
-- [IntelMausi (1.0.4)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.4)
+- [Lilu (1.5.1)](https://github.com/acidanthera/Lilu/releases/tag/1.5.1)
+- [AppleALC (1.5.7)](https://github.com/acidanthera/AppleALC/releases/tag/1.5.7)
+- [WhateverGreen (1.4.7)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.7)
+- [VirtualSMC (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
+- [SMCProcessor (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
+- [SMCSuperIO (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
+- [IntelMausi (1.0.5)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.5)
 
 ## Running SOs
 
 - Windows 10
 - Ubuntu 20.08 LTS
-- MacOs 11.2
+- MacOs 11.3
 
 ## Working
 
@@ -71,4 +69,3 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210106
 ## Configs
 
 ![Bios Config](images/BiosConfig.jpg)
-![About This Mac](images/AboutThisMac.png)
