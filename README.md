@@ -13,7 +13,7 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.6.6
+- OpenCore 0.6.7
 - OS: macOS 11.3 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Kernel: 20.3.0
@@ -30,7 +30,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.6.6 to generate:
+You can use OpenCoreConfigurator to OpenCore 0.6.7 to generate:
 https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210203
 
 ## MacOs Kexts
