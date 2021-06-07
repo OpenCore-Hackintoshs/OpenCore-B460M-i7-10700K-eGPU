@@ -13,8 +13,8 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.6.7
-- OS: macOS 11.3 x86_64
+- OpenCore 0.6.9
+- OS: macOS 11.4 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Kernel: 20.3.0
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
@@ -30,23 +30,24 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.6.7 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210203
+You can use OpenCoreConfigurator to OpenCore 0.6.9 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210512
 
 ## MacOs Kexts
 
-- [Lilu (1.5.1)](https://github.com/acidanthera/Lilu/releases/tag/1.5.1)
-- [AppleALC (1.5.7)](https://github.com/acidanthera/AppleALC/releases/tag/1.5.7)
-- [WhateverGreen (1.4.7)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.7)
-- [VirtualSMC (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
-- [SMCProcessor (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
-- [SMCSuperIO (1.2.0)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.0)
-- [IntelMausi (1.0.5)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.5)
+- [Lilu (1.5.3)](https://github.com/acidanthera/Lilu/releases/tag/1.5.3)
+- [AppleALC (1.6.0)](https://github.com/acidanthera/AppleALC/releases/tag/1.6.0)
+- [WhateverGreen (1.4.9)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.9)
+- [VirtualSMC (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
+- [SMCProcessor (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
+- [SMCSuperIO (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
+- [IntelMausi (1.0.6)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.6)
+- USBInjectAll
+- XHCI-unsupported
 
 ## Running SOs
 
 - Windows 10
-- Ubuntu 20.08 LTS
 - MacOs 11.3
 
 ## Working
