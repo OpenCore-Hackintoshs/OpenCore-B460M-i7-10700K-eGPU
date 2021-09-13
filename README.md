@@ -44,7 +44,7 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210828
 - USBInjectAll
 - XHCI-unsupported
 
-## Running SOs
+## Running OS
 
 - Windows 11
 - MacOs 12.0
