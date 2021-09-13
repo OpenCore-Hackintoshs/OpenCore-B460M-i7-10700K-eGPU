@@ -13,10 +13,9 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.6.9
-- OS: macOS 11.4 x86_64
+- OpenCore 0.7.2
+- OS: macOS 12 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
-- Kernel: 20.3.0
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
 - WM: Spectacle
 
@@ -30,14 +29,14 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.6.9 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210512
+You can use OpenCoreConfigurator to OpenCore 0.7.2 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210828
 
 ## MacOs Kexts
 
-- [Lilu (1.5.3)](https://github.com/acidanthera/Lilu/releases/tag/1.5.3)
-- [AppleALC (1.6.0)](https://github.com/acidanthera/AppleALC/releases/tag/1.6.0)
-- [WhateverGreen (1.4.9)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.9)
+- [Lilu (1.5.5)](https://github.com/acidanthera/Lilu/releases/tag/1.5.5)
+- [AppleALC (1.6.3)](https://github.com/acidanthera/AppleALC/releases/tag/1.6.3)
+- [WhateverGreen (1.5.2)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.5.2)
 - [VirtualSMC (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
 - [SMCProcessor (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
 - [SMCSuperIO (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
@@ -47,14 +46,14 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210512
 
 ## Running SOs
 
-- Windows 10
-- MacOs 11.3
+- Windows 11
+- MacOs 12.0
 
 ## Working
 
 - Wifi + Bluetooth (Airdrop, AirPlay)
 - LAN Ethernet
-- Boot Audio
+- Boot Audio (Disabled)
 - OS Audio
 - USB Ports
 - GPU Aceleration (Dual Monitor+)
