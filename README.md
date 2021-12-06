@@ -13,7 +13,7 @@ Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.7.2
+- OpenCore 0.7.6
 - OS: macOS 12 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
@@ -29,17 +29,17 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.7.2 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210828
+You can use OpenCoreConfigurator to OpenCore 0.7.6 to generate:
+https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20220013
 
 ## MacOs Kexts
 
-- [Lilu (1.5.5)](https://github.com/acidanthera/Lilu/releases/tag/1.5.5)
+- [Lilu (1.5.8)](https://github.com/acidanthera/Lilu/releases/tag/1.5.8)
 - [AppleALC (1.6.3)](https://github.com/acidanthera/AppleALC/releases/tag/1.6.3)
 - [WhateverGreen (1.5.2)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.5.2)
-- [VirtualSMC (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
-- [SMCProcessor (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
-- [SMCSuperIO (1.2.3)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.3)
+- [VirtualSMC (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
+- [SMCProcessor (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
+- [SMCSuperIO (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
 - [IntelMausi (1.0.6)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.6)
 - USBInjectAll
 - XHCI-unsupported
@@ -47,7 +47,7 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20210828
 ## Running OS
 
 - Windows 11
-- MacOs 12.0
+- MacOs 12.0.1
 
 ## Working
 
