@@ -8,13 +8,13 @@ Gigabyte B460M Aorus Pro (Bios: F4)
 Intel Core i7 10700K
 Ram 2 x 16GB DDR4 2933 MHz
 SSD WD BLACK SN750 1TB NVME PCIe Gen3 x4 (WDS100T3XHC)
-Gigabyte Radeon RX 5700 GAMING OC 8GB - Navi 10
+AMD Radeon RX 460 2 GB
 Wifi + Bluetooth Bcm94360cd
 Monitor HP V225hz && DELL P2219H (3840x1080)
 ```
 
-- OpenCore 0.7.6
-- OS: macOS 12 x86_64
+- [OpenCore 0.8.4](https://dortania.github.io/builds/?product=OpenCorePkg&viewall=true)
+- OS: macOS 13 x86_64
 - Host: Hackintosh (SMBIOS: iMac20,2)
 - Resolution: 1920x1080 @ FHDHz, 1920x1080 @ FHDHz
 - WM: Spectacle
@@ -29,25 +29,25 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ---
 
 **SMBIOS:** Mac BIOS Info, on hackintosh is about your Mac fake IDs and Serials.
-You can use OpenCoreConfigurator to OpenCore 0.7.6 to generate:
-https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20220013
+You can use OpenCoreConfigurator to OpenCore 0.7.8 (no one for 0.8.4 yet, but this version works) to generate:
+https://github.com/ic005k/OCAuxiliaryTools/releases/tag/20220232
 
 ## MacOs Kexts
 
-- [Lilu (1.5.8)](https://github.com/acidanthera/Lilu/releases/tag/1.5.8)
-- [AppleALC (1.6.3)](https://github.com/acidanthera/AppleALC/releases/tag/1.6.3)
-- [WhateverGreen (1.5.2)](https://github.com/acidanthera/WhateverGreen/releases/tag/1.5.2)
-- [VirtualSMC (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
-- [SMCProcessor (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
-- [SMCSuperIO (1.2.8)](https://github.com/acidanthera/VirtualSMC/releases/tag/1.2.8)
-- [IntelMausi (1.0.6)](https://github.com/acidanthera/IntelMausi/releases/tag/1.0.6)
+- [Lilu (1.6.3)](https://dortania.github.io/builds/?product=Lilu&viewall=true)
+- [AppleALC (1.7.6)](https://dortania.github.io/builds/?product=AppleALC&viewall=true)
+- [WhateverGreen (1.6.2)](https://dortania.github.io/builds/?product=WhateverGreen&viewall=true)
+- [VirtualSMC (1.3.1)](https://dortania.github.io/builds/?product=VirtualSMC&viewall=true)
+- [SMCProcessor (1.3.1)](https://dortania.github.io/builds/?product=VirtualSMC&viewall=true)
+- [SMCSuperIO (1.3.1)](https://dortania.github.io/builds/?product=VirtualSMC&viewall=true)
+- [IntelMausi (1.0.8)](https://dortania.github.io/builds/?product=IntelMausi&viewall=true)
 - USBInjectAll
 - XHCI-unsupported
 
 ## Running OS
 
 - Windows 11
-- MacOs 12.0.1
+- MacOs 13 Beta 5
 
 ## Working
 
@@ -64,7 +64,7 @@ https://github.com/ic005k/QtOpenCoreConfig/releases/tag/20220013
 
 ## Not Working
 
-- RGB Control (Only work on Windows)
+- RGB Control (Only work on Windows, testing https://openrgb.org/)
 
 ## Configs
 
