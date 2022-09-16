@@ -60,11 +60,8 @@ https://github.com/ic005k/OCAuxiliaryTools/releases/tag/20220232
 - Temperature, Power Sensors
 - iServices (DO NOT FORGET, use your own SMBIOS)
 - Full Dev Environment (Web, Android, iOs)
+- RGB Control (With https://openrgb.org/)
 - Etc
-
-## Not Working
-
-- RGB Control (Only work on Windows, testing https://openrgb.org/)
 
 ## Configs
 
